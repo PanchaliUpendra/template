@@ -1,0 +1,45 @@
+.homebtn{
+    color: white;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 2px solid white;
+    border-style: hidden;
+    scroll-behavior: smooth;
+}
+
+.header{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+.header:hover{
+    color: white;
+}
+
+div.header h2 p span{
+    color: orange;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+@media (max-width:952px){
+    .homebtn{
+        font-size: 16px;
+    }
+    .header{
+        padding-top: 40%;
+        padding-bottom: 40%;
+    }
+}
+
+@media (max-width:858px){
+    .homebtn{
+        font-size: 15px;
+    }
+    .header{
+        padding-top: 60%;
+        padding-bottom: 60%;
+    }
+}
