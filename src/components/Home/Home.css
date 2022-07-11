@@ -12,7 +12,7 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: auto;
-    padding-top: 20%;
+    padding-top: 20%; 
     padding-bottom: 20%;
 }
 .header:hover{
@@ -34,11 +34,14 @@ div.header h2 p span{
     }
 }
 
+
 @media (max-width:858px){
     .homebtn{
         font-size: 15px;
     }
     .header{
+        margin-left: auto;
+        margin-right: auto;
         padding-top: 60%;
         padding-bottom: 60%;
     }
