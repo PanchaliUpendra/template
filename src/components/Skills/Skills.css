@@ -1,0 +1,38 @@
+.skills{
+    margin-top:3%;
+}
+
+.skill-head-main{
+    text-align: center;
+}
+
+.skill-head{
+    border: 4px solid orange;
+    display: inline-block;
+    padding:5px;
+    border-style:hidden hidden solid hidden;
+}
+
+.skill-ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 3%;
+}
+
+.skill-ul li{
+    border:2px solid orange;
+    padding:10px;
+    margin:10px;
+    border-radius: 50%;
+    background-color: orange;
+    transition: 1.5s;
+    border-style: none;
+    font-size: larger;
+    font-weight: bold;
+
+}
+.skill-ul li:hover{
+    background-color: transparent;
+    border:2px solid orange;
+}
