@@ -2,6 +2,15 @@ import React from 'react';
 
 import './Navbar.css';
 function Navbar(){
+
+    function handle(id){
+        window.scroll({
+            top:id,
+            left:0,
+            behavior:'smooth'
+
+            })
+    }
     return(
         <div className='sticker'>
             <nav>
@@ -11,10 +20,10 @@ function Navbar(){
                     </label>
                 <label className='logo'>Panchali</label>
                 <ul>
-                    <li><p className='active'>Home</p></li>
-                    <li><p>About</p></li>
-                    <li><p>Eduction</p></li>
-                    <li><p>Skills</p></li>
+                    <li onClick={()=>handle(0)}><p className='active'>Home</p></li>
+                    <li onClick={()=>handle(780)}><p>About</p></li>
+                    <li onClick={()=>handle(1440)}><p>Skills</p></li>
+                    <li onClick={()=>handle(1760)}><p>Eduction</p></li>
                     <li><p>Projects</p></li>
                     <li><p>Contact</p></li>
                 </ul>
