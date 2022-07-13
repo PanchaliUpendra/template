@@ -24,8 +24,8 @@ function Navbar(){
                     <li onClick={()=>handle(780)}><p>About</p></li>
                     <li onClick={()=>handle(1440)}><p>Skills</p></li>
                     <li onClick={()=>handle(1760)}><p>Eduction</p></li>
-                    <li><p>Projects</p></li>
-                    <li><p>Contact</p></li>
+                    <li onClick={()=>handle(2630)}><p>Projects</p></li>
+                    <li onClick={()=>handle(4000)}><p>Contact</p></li>
                 </ul>
             </nav>
 

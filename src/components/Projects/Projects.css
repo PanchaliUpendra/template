@@ -1,0 +1,102 @@
+.projects{
+    margin-top:10%;
+    background-image: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.8)),url('./iron.jpg');
+    width: 100%;
+    background-position: 100%;
+    /*background-size: repeat;*/
+    margin-bottom: 5%;
+    padding-bottom: 5%;
+    scroll-behavior: smooth;
+    
+}
+
+.projects-head{
+    text-align: center;
+    padding-top: 3%;
+    
+}
+.projects-head-part{
+    display: inline-block;
+    text-align: center;
+    border: 4px solid white;
+    padding: 10px;
+    border-style: hidden hidden solid hidden;
+}
+.prot{
+    display: flex;
+    justify-content: center;
+    
+}
+.pro-part{
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.project1-part{
+    display: inline-block;
+    border: 2px solid orange;
+    width:55%;
+    background-color: transparent;
+    border-style: hidden;
+
+}
+.project1-part h3{
+    display: inline-block;
+    padding:10px;
+    color: orange;
+    border: 4px solid orange;
+    font-size: x-large;
+    border-style: hidden hidden solid hidden;
+
+}
+.pro-part-sec{
+    padding-left: 3%;
+    color: aliceblue;
+    font-size: 25px;
+    font-weight: 500px;
+    padding-top: 2%;
+    
+}
+
+.img{
+    margin-left: 2%;
+    
+
+}
+.img-btn{
+    border:2px solid orange;
+    background-color:orange;
+    width:600px;
+    height:300px;
+}
+
+@media(max-width:858px){
+    .pro-part{
+        margin-top: 5%;
+        display: flex;
+        flex-direction: column;
+    }
+    .project1-part{
+        display:inline;
+        background-color:transparent;
+        width:100%;
+        border-style: hidden;
+    
+    }
+    .pro-part-sec{
+        padding:10px;
+    }
+    .img{
+        padding-top: 10px;
+        background-position:center;
+        background-size: contain;
+        display: flex;
+        justify-content: center;
+    }
+    .img-btn{
+        width:350px;
+        height:260px;
+        
+    }
+}
