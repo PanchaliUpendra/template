@@ -10,7 +10,14 @@ function Navbar(){
             behavior:'smooth'
 
             })
-    }
+        }
+    function handleScroll() {
+            window.scroll({
+              top: document.body.offsetHeight,
+              left: 0, 
+              behavior: 'smooth',
+            });
+          }
     return(
         <div className='sticker'>
             <nav>
@@ -25,7 +32,7 @@ function Navbar(){
                     <li onClick={()=>handle(1440)}><p>Skills</p></li>
                     <li onClick={()=>handle(1760)}><p>Eduction</p></li>
                     <li onClick={()=>handle(2630)}><p>Projects</p></li>
-                    <li onClick={()=>handle(4000)}><p>Contact</p></li>
+                    <li onClick={handleScroll}><p>Contact</p></li>
                 </ul>
             </nav>
 

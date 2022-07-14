@@ -46,13 +46,25 @@
 .view-resume{
     margin-left:10px;
     margin-top:5%;
+    
 }
+
+
 .view-resume-part{
 border:2px solid white;
 display: inline;
-padding:2px;
+padding:5px;
 padding-left:5px;
 padding-right: 5px;
+background: linear-gradient(to left,transparent 50%,white 50%);
+    background-size: 200% 100%;
+    background-position:right bottom;
+    transition: 1s;
+}
+.view-resume-part:hover{
+    cursor: pointer;
+    background-position:left bottom;
+    color: black;
 }
 
 @media(max-width:700px){
